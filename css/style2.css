@@ -68,11 +68,11 @@ html {
 @media (min-width: 600px) {
 #container-1 {
     background-color: #ff9eaf;
-    width: 550px;
+    width: 650px;
     box-shadow: 0 0 2rem #ff4da6;
     height: 970px;
     position: absolute;
-    left: 240px;
+    left: 170px;
     margin-top: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
