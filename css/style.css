@@ -80,45 +80,47 @@ html {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 600px) {
-#container-1 {
-    background-color: #ff9eaf;
-    width: 425px;
-    box-shadow: 0 0 2rem #ff4da6;
-    height: 1050px;
-    position: absolute;
-    left: 30px;
-    margin-top: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-}
+ @media (min-width: 600px) {
 
-.toptitle {
-    text-align: center;
-    font-size: 30px;
-    background-color: #ff859a;
-    text-transform: capitalize;
-    padding: 10px;
-}
+    #container-1 {
+        background-color: #ff9eaf;
+        width: 700px;
+        box-shadow: 0 0 2rem #ff4da6;
+        height: 1170px;
+        position: absolute;
+        left: 150px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
 
-p {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #ff8e81;
-    margin: 30px;
-}
+    .toptitle {
+        text-align: center;
+        font-size: 30px;
+        background-color: #ff859a;
+        text-transform: capitalize;
+        padding: 10px;
+    }
 
-.bottom {
-    position: absolute;
-    top: 10px;
-    left: 440px;
-    font-size: 30px;
-    text-decoration: none;
-}
+    p {
+        font-size: 30px;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: #ff8e81;
+        margin: 30px;
+    }
 
-.imagem1 { 
-    position: absolute;
-    left: 60px;  
-}
+    .bottom {
+        position: absolute;
+        top: 10px;
+        left: 940px;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .imagem1 { 
+        position: absolute;
+        left: 90px;
+        margin-left: 100px;  
+    }
 
 }
