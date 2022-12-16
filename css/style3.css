@@ -1,0 +1,172 @@
+html {
+    background-color: #ffa3b3;
+}
+
+.titulo {
+    background-color: #ff7b91;
+    box-shadow: 0 0 2rem #ec479a;
+    padding: 0.5cm;
+    margin: 0;
+    height: 1cm;
+    width: 35.13cm;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    text-align: center;
+    
+}
+
+#button {
+    position: absolute;
+    left: 1.2cm;
+    font-size: 0.7cm;
+    background-color: #ff7b91;
+    border: 0cm;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#button2 {
+    position: absolute;
+    font-size: 0.7cm;
+    background-color: #ff7b91;
+    border: 0cm;
+    
+}
+
+body {
+    margin: 0;
+}
+
+#container-1 {
+    position: absolute;
+    top: 3cm;
+    width: 700px;
+    height: 27cm;
+    background-color:#ff9eaf;
+    border-radius: 2cm;
+    box-shadow:  0 0 2rem #ff4da6;
+    position: absolute;
+    left: 8.9cm;
+}
+
+p, h1, h2 {
+    text-align: center;
+    color: #7e1549;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+p {
+    font-size: 25px;
+    margin: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #ff4da6;
+}
+
+img {
+    width: 5cm;
+    position: absolute;
+    border-radius: 1cm;
+    margin: 2cm;
+}
+
+.bjs {
+    left: 5.3cm;
+}
+
+.boro {
+    left: 10.5cm;
+}
+
+.chapeu {
+    top: 11cm;
+}
+
+.dedo {
+    top: 9cm;
+    left: 5.3cm;
+}
+
+.euela {
+    top: 9cm;
+    left: 10.5cm;
+}
+
+.hihi {
+    top: 14.7cm;
+    left: 5.3cm;
+}
+
+.zoio {
+    top: 18cm;
+    left: 10.5cm;
+} 
+
+@media (max-width: 600px) {
+    .titulo {
+        height: 1cm;
+        width: 11.70cm;
+    }
+    
+    #button {
+        left: 1.2cm;  
+    }
+
+    #button2 {
+        position: absolute;
+        font-size: 0.7cm;
+        background-color: #ff7b91;
+        border: 0cm;
+        
+    }
+     
+    #container-1 {
+        width: 450px;
+        height: 42cm;
+        left: 0.4cm;
+    }
+  
+    img {
+        width: 3.5cm;  
+        box-shadow: 0 0 2rem #ff4da6;
+    }
+    
+    .bjs {
+        left: 5.3cm;
+    }
+    
+    .boro {
+        left: 2.6cm;
+        top: 23cm;
+    }
+    
+    .chapeu {
+        top: 9cm;
+    }
+    
+    .dedo {
+        top: 7cm;
+        left: 5.3cm;
+    }
+    
+    .euela {
+        top: 16cm;
+        left: 0.1em;
+    }
+    
+    .hihi {
+        top: 12cm;
+        left: 5.3cm;
+    }
+    
+    .zoio {
+        top: 17cm;
+        left: 5.3cm;
+    } 
+}
