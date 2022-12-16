@@ -116,4 +116,14 @@ p {
         left: 10.6cm;
         
     }
+
+    #button2 {
+        position: absolute;
+        left: 9cm;
+        font-size: 0.7cm;
+        background-color: #ff7b91;
+        border: 0cm;
+        
+    }
+
 }
