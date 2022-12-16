@@ -1,0 +1,129 @@
+html {
+    background-color: #ffa3b3;
+}
+
+.titulo {
+    background-color: #ff7b91;
+    box-shadow: 0 0 2rem #ec479a;
+    padding: 0.5cm;
+    margin: 0;
+    height: 1cm;
+    width: 34.7cm;
+    border-bottom-left-radius: 1cm;
+    border-bottom-right-radius: 1cm;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#button {
+    position: absolute;
+    font-size: 0.8cm;
+    background-color: #ff7b91;
+    border: 0cm;
+    left: 34.1cm;
+}
+
+#button2 {
+    position: absolute;
+    left: 33cm;
+    font-size: 0.7cm;
+    background-color: #ff7b91;
+    border: 0cm;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.ela1 {
+    box-shadow:  0 0 2rem #ff4da6;
+    border-radius: 1cm;
+    position: absolute;
+    left: 4.7cm;
+    width: 9cm;
+}
+
+#container-1 {
+    position: absolute;
+    top: 3cm;
+    width: 700px;
+    height: 27cm;
+    background-color:#ff9eaf;
+    border-radius: 2cm;
+    box-shadow:  0 0 2rem #ff4da6;
+    position: absolute;
+    left: 8.9cm;
+}
+
+p, h1, h2 {
+    text-align: center;
+    color: #7e1549;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+p {
+    font-size: 25px;
+    margin: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: #ff4da6;
+}
+
+@media (max-width: 600px) {
+    #container-1 {
+        position: absolute;
+        top: 3cm;
+        width: 10cm;
+        height: 38cm;
+        background-color:#ff9eaf;
+        border-radius: 2cm;
+        box-shadow:  0 0 2rem #ff4da6;
+        position: absolute;
+        left: 1.6cm;
+    }
+    
+    .ela1 {
+        box-shadow:  0 0 2rem #ff4da6;
+        border-radius: 1cm;
+        position: absolute;
+        left: 2cm;
+        width: 6cm;
+    }
+
+    .titulo {
+        background-color: #ff7b91;
+        box-shadow: 0 0 2rem #ec479a;
+        padding: 0.5cm;
+        margin: 0;
+        height: 1cm;
+        width: 11.75cm;
+        border-bottom-left-radius: 1cm;
+        border-bottom-right-radius: 1cm;
+    }
+
+    #button {
+        position: absolute;
+        font-size: 0.8cm;
+        background-color: #ff7b91;
+        border: 0cm;
+        left: 10.6cm;
+        
+    }
+
+    #button2 {
+        position: absolute;
+        left: 9cm;
+        font-size: 0.7cm;
+        background-color: #ff7b91;
+        border: 0cm;
+        
+    }
+
+}
